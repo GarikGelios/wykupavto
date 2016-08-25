@@ -1,8 +1,24 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.line {
+    background-image: url(/img/line.png);
+    background-position: left bottom;
+    background-repeat: repeat-x;
 }
-
-a {
-  color: #00B7FF;
+.cars img{
+    width: 100%;
+}
+.page-header {
+    margin: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0px solid transparent;
+    z-index: 100;
+}
+.affix {
+  top: 0px;
+  left: 0;
+  width:100%;
+}
+body{
+height: 8000px;    
 }
