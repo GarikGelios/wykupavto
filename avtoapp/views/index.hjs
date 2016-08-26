@@ -23,7 +23,25 @@
   </head>
   <body>
    <div class="page-header">
-  <h1>Example page header <small>Subtext for header</small></h1>
+  <div class="row">
+  <div class="col-md-3 col-sm-3 logo">
+  <img src="/img/logot.png" alt="logo">
+  </div>
+  <div class="col-md-6 col-sm-6 phone">
+      <div class="velcom">
+          <img src="/img/velcom_logo_main_color.png" alt="velcom">
+          <h2>+375<span>44</span>7176115</h2>
+      </div>
+      <div class="mts">
+          <img src="/img/mts_rus_sign_05_04_11.png" alt="mts">
+          <h2>+375<span>29</span>3276115</h2>
+      </div>
+  </div>
+  <div class="col-md-3 col-sm-3  time">
+  <img src="/img/clock-time-1.png" alt="clock">
+          <h2>Без выходных</h2><h2>с 8:00 до 22:00</h2>
+  </div>
+</div>
 </div>
    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="68" data-offset-bottom="500">
   <div class="container-fluid">
@@ -40,7 +58,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Как мы это делаем <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Как мы это делаем <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Наши специалисты</a></li>
         <li><a href="#">Отзывы</a></li>
         <li><a href="#">Контакты</a></li>
@@ -90,9 +108,50 @@
      <div class="line">
       <img src="/img/line.png" alt="...">
       </div>
-      <div class="row">
-  <div class="col-md-6">.col-md-6</div>
-  <div class="col-md-6">.col-md-6</div>
+      <div class="row form-back">
+      <h1>Онлайн-заявка на оценку автомобиля</h1>
+  <div class="col-md-6"><form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form></div>
+  <div class="col-md-6"><form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form></div>
 </div>
     
 

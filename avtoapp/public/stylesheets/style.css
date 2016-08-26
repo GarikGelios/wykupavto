@@ -22,3 +22,75 @@
 body{
 height: 8000px;    
 }
+.page-header img {
+    height: 90px;
+    padding: 10px;
+}
+.col-md-4 .phone .mts {
+    float: none;
+}
+.phone img {
+    width: 120px;
+    height: 100%;
+    float: left;
+}
+.phone h2,
+.time h2{
+    margin-top: 0px;
+}
+.page-header {
+    padding-bottom: 0px;
+}
+.time img {
+    width: 45px;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+.row {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+
+@media (max-width: 500px) { 
+        .logo, .time {
+            display: none;
+        }
+}
+@media (max-width: 768px) { 
+        .time h2{
+            font-size: 20px;
+        }
+}
+.phone span {
+    padding: 0 10px;
+}
+.time h2 {
+    margin: 0;
+    font-size: 20px;   
+}
+.nav a{
+    font-size: large;
+}
+.form-back h1 {
+    text-align: -webkit-center;
+}
+.navbar-default {
+    background-image: -webkit-linear-gradient(top,#606 0,#660066 100%);
+    background-image: -o-linear-gradient(top,#606 0,#660066 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#606),to(#660066));
+    background-image: linear-gradient(to bottom,#606 0,#660066 100%);
+    border-radius: 0px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-image: -webkit-linear-gradient(top,#fff 0,#660066 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#660066 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#660066));
+    background-image: linear-gradient(to bottom,#fff 0,#660066 100%);
+}
