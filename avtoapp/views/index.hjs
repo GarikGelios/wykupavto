@@ -73,7 +73,6 @@
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
-
   <!-- Wrapper for slides -->
   <div class="carousel-inner cars" role="listbox">
     <div class="item active">
@@ -223,6 +222,85 @@
     <div class="line">
         <img src="/img/line.png" alt="...">
     </div>
+<!--    Наши специалисты    -->
+ <div class="row"><h1>Наши специалисты</h1></div>
+   <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner cars" role="listbox">
+    <div class="item active">
+      <img src="/img/pattern1.png" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="/img/pattern2.png" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="/img/pattern3.png" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--  Пишите нам в любое время  -->
+   <div class="row">
+   <h1>Пишите нам в любое время</h1>
+  <div class="col-sm-6 col-md-6 col-xs-6 thumbnail-info">
+    <div class="thumbnail">
+      <img src="/img/calendar.png" alt="...">
+      <div class="caption">
+        <h1>В любой день недели</h1>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-6 col-xs-6 thumbnail-info">
+    <div class="thumbnail">
+      <img src="/img/alarm.png" alt="...">
+      <div class="caption">
+        <h1>В любое время суток</h1>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col-md-12">
+    <h3>Одно из преимуществ нашей компании – выкуп легковых автомобилей 
+любой марки, независимо от производителя, года выпуска и технического состояния.</h3>
+<h3>Мы принимаем заявки от владельцев подержаных автомобилей с 
+повреждениями различной степени тяжести. 
+Для точной оценки авто владелец должен выслать нам фотографии 
+автомобиля через форму на сайте или по почте.</h3>
+      </div>
+  </div>
+<!--    Разделительная линия-->
+    <div class="line">
+        <img src="/img/line.png" alt="...">
+    </div>
+      
+      
+          
+
+
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
