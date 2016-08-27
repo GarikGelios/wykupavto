@@ -2,6 +2,10 @@
     background-image: url(/img/line.png);
     background-position: left bottom;
     background-repeat: repeat-x;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+}
+.line img {
+    height: 50px;
 }
 .cars img{
     width: 100%;
@@ -51,17 +55,6 @@ height: 8000px;
     margin-right: 0px; 
     margin-left: 0px; 
 }
-
-@media (max-width: 500px) { 
-        .logo, .time {
-            display: none;
-        }
-}
-@media (max-width: 768px) { 
-        .time h2{
-            font-size: 20px;
-        }
-}
 .phone span {
     padding: 0 10px;
 }
@@ -89,8 +82,73 @@ height: 8000px;
     color: #fff;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    background-image: -webkit-linear-gradient(top,#fff 0,#660066 100%);
-    background-image: -o-linear-gradient(top,#fff 0,#660066 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#660066));
-    background-image: linear-gradient(to bottom,#fff 0,#660066 100%);
+    background-image: -webkit-linear-gradient(top,#fff 0,#ffffff 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#ffffff 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#ffffff));
+    background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
+}
+.form-back button.btn.btn-default {
+    color: white;
+    width: 100%;
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    background-image: linear-gradient(to bottom,#606 0,#660066 100%);
+    background-repeat: inherit;
+}
+.form-back button.btn.btn-default:hover {
+    color: black;
+    width: 100%;
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
+}
+.form-back textarea {
+    resize: none;
+    height: 182px;
+}
+.help-block {
+    margin-top: 49px;
+}
+.form-control{
+    border: 1px solid #606;
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+.thumbnail {
+    margin-top: 50px;
+    text-align: -webkit-center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    border: 0px solid #ddd;
+}
+.how-work1 img {
+    float: left;
+    width: 130px;
+    margin: 0 15px;
+}
+.how-work2 img {
+    float: right;
+    width: 130px;
+    margin: 0 15px;
+}
+.row h1 {
+    text-align: -webkit-center;
+}
+
+
+
+@media (max-width: 500px) { 
+    .logo, .time {
+       display: none;
+    }
+    .form-back{
+        width: 100%;
+    }
+    .thumbnail-info{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) { 
+        .time h2{
+            font-size: 20px;
+        }
+        .help-block {
+            margin-top: 29px;
+}
 }
