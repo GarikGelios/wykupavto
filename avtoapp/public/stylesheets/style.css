@@ -23,9 +23,6 @@
   left: 0;
   width:100%;
 }
-body{
-height: 8000px;    
-}
 .page-header img {
     height: 90px;
     padding: 10px;
@@ -33,7 +30,8 @@ height: 8000px;
 .col-md-4 .phone .mts {
     float: none;
 }
-.phone img {
+.phone img,
+.panel img{
     width: 120px;
     height: 100%;
     float: left;
@@ -55,7 +53,8 @@ height: 8000px;
     margin-right: 0px; 
     margin-left: 0px; 
 }
-.phone span {
+.phone span,
+.panel span{
     padding: 0 10px;
 }
 .time h2 {
@@ -134,10 +133,79 @@ h3{
    padding: 0 20px; 
    text-indent: 20px;
 }
-    
+.comment img {
+    max-width: 150px;
+    float: left;
+}
+.comment h3 {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-weight: bold;
+}
+.comment p {
+    font-style: italic;
+    font-size: small;
+    display: -webkit-box;
+    margin: 0 10px;
+    text-indent: 20px;
+    text-align: -webkit-left;
+}
+.car-indicators,
+.command-indicators,
+.comment-indicators{
+    display: none;
+}
+.panel {
+    color: white;
+    margin-bottom: 0px;
+    background-color: #333333;
+    border: 0px solid transparent; 
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #660066;
+    border-top: 0px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel .col-md-6.col-sm-6 {
+    text-align: -webkit-center;
+}
+.phone-and-24clock img {
+    width: 30%;
+    float: right;
+    margin: 10px;
+}
+.phone-and-24clock p {
+    text-align: -webkit-left;
+    font-size: larger;
+}
 
 
 
+
+
+
+
+
+
+
+
+@media (max-width: 768px) { 
+        .time h2{
+            font-size: 20px;
+        }
+        .help-block {
+            margin-top: 29px;
+}
+        .comment img {
+            width: 20%;
+}
+}
 @media (max-width: 500px) { 
     .logo, .time {
        display: none;
@@ -148,12 +216,26 @@ h3{
     .thumbnail-info{
         width: 100%;
     }
+    .comment img {
+        width: 40%;
 }
-@media (max-width: 768px) { 
-        .time h2{
-            font-size: 20px;
-        }
-        .help-block {
-            margin-top: 29px;
+    .thumbnail-info h2 {
+        font-size: larger;
+}
+    .thumbnail-info img {
+        width: 35%;
+}
+    .how-work1 img,
+    .how-work2 img{
+        width: 15%;
+}
+    .col-md-12 h3 {
+        font-size: large;
+}
+}
+@media (max-width: 360px) { 
+    .comment img {
+        width: 50%;
+        float: initial;
 }
 }
