@@ -78,19 +78,42 @@
     <div class="item active">
       <img src="/img/car1.png" alt="...">
       <div class="carousel-caption">
-        ...
+        <h1>КУПИМ ВАШ АВТОМОБИЛЬ</h1>
+        <h3>Скупка авто в любом состоянии, 
+в том числе и после ДТП. 
+</h3>
+     <h3>Вы получите сразу всю сумму 
+за автомобиль.</h3>
+     <h3>Все официально и 
+без изнурительной бумажной волокиты.</h3>
       </div>
     </div>
     <div class="item">
       <img src="/img/car2.png" alt="...">
       <div class="carousel-caption">
-        ...
+        <h1>СРОЧНЫЙ ВЫКУП АВТО</h1>
+        <h3>Скупка авто в любом состоянии, 
+в том числе и после ДТП. 
+</h3>
+     <h3>Вы получите сразу всю сумму 
+за автомобиль.</h3>
+     <h3>Все официально и 
+без изнурительной бумажной волокиты.</h3>
+        
       </div>
     </div>
 <div class="item">
       <img src="/img/car3.png" alt="...">
       <div class="carousel-caption">
-        ...
+        <h1>ВЫКУП АВАРИЙНЫХ АВТО</h1>
+        <h3>Скупка авто в любом состоянии, 
+в том числе и после ДТП. 
+</h3>
+     <h3>Вы получите сразу всю сумму 
+за автомобиль.</h3>
+     <h3>Все официально и 
+без изнурительной бумажной волокиты.</h3>
+        
       </div>
     </div>
   </div>
@@ -115,32 +138,32 @@
   <div class="form-group">
    <div class="form-group">
     <label for="exampleInputPassword1">Ваш номер телефона</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="+375 (**) *** ** **">
   </div>
     <label for="exampleInputEmail1">Ваш Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Марка вашего автомобиля</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="brand">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Модель</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="model">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Год выпуска</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="год">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Желаемая стоимость</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="$">
   </div>
 </form></div>
   <div class="col-md-6 col-sm-6 col-xs-6 form-back"><form>
   <div class="form-group">
     <label for="exampleInputEmail1">Дополнительная информация</label>
-    <textarea type="email" class="form-control more-info" id="exampleInputEmail1" placeholder="Email"></textarea>
+    <textarea type="email" class="form-control more-info" id="exampleInputEmail1" placeholder="..."></textarea>
   </div>
   <div class="form-group">
     <label for="exampleInputFile">Фотографии</label>
@@ -153,7 +176,7 @@
 </form></div>
 </div>
 <!--  Быстро Выгодно Удобно-->
-   <div class="row">
+   <div class="row thumbnail-info2">
   <div class="col-sm-4 col-md-4 col-xs-4 thumbnail-info">
     <div class="thumbnail">
       <img src="/img/clock.png" alt="...">
@@ -223,32 +246,49 @@
         <img src="/img/line.png" alt="...">
     </div>
 <!--    Наши специалисты    -->
+<div class="row"><h1>Наши специалисты</h1></div>
 <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators car-indicators">
+  <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
   </ol>
   <!-- Wrapper for slides -->
-  <div class="carousel-inner cars" role="listbox">
+  <div class="carousel-inner specialist" role="listbox">
     <div class="item active">
-      <img src="/img/pattern1.jpg" alt="...">
-      <div class="carousel-caption">
-        ...
+     <div class="row specialist1">
+        <div class="col-sm-4 foto">
+          <img src="/img/specialist-2.jpg" alt="..." class="img-thumbnail">
       </div>
+         <div class="col-sm-8 text-spec">
+           <h2>Александр</h2>
+        <p>Выявление и устранение сложных дефектов и неисправностей. Ремонт, сборка, регулировка, испытание на стенде агрегатов и электрооборудования. ТО и ТР авто отечественного производителя, КР двигателей подвески ходовой как легковых так и грузовых авто</p>
+      </div>
+     </div>     
     </div>
     <div class="item">
-      <img src="/img/pattern2.jpg" alt="...">
-      <div class="carousel-caption">
-        ...
+      <div class="row specialist2">
+        <div class="col-sm-4 foto">
+          <img src="/img/specialist-3.jpg" alt="..." class="img-thumbnail">
       </div>
-    </div>
+         <div class="col-sm-8 text-spec">
+           <h2>Михаил</h2>
+        <p>Техник-экономист. Водитель категории: В,С,D,BE,CE,DE. Водитель-международник. Опыт водителем - 10 лет на грузовом автомобиле грузоподъемностью 14 т. </p>
+      </div>
+      
+     </div>
+      </div>
 <div class="item">
-      <img src="/img/pattern3.jpg" alt="...">
-      <div class="carousel-caption">
-        ...
+      <div class="row specialist3">
+        <div class="col-sm-4 foto">
+          <img src="/img/specialist-1.jpg" alt="..." class="img-thumbnail">
       </div>
+         <div class="col-sm-8 text-spec">
+           <h2>Владислав</h2>
+        <p>Автоэлектрик с правом установки доп. оборудования. Устройство и диагностика электрооборудования и электронных систем современного оборудования автомобилей</p>
+      </div>
+     </div>
     </div>
   </div>
   <!-- Controls -->
@@ -262,14 +302,9 @@
   </a>
 </div>
 
- <div class="row"><h1>Наши специалисты</h1></div>
-  
-
-
-
 
 <!--  Пишите нам в любое время  -->
-   <div class="row">
+   <div class="row thumbnail-info2">
    <h1>Пишите нам в любое время</h1>
   <div class="col-sm-6 col-md-6 col-xs-6 thumbnail-info">
     <div class="thumbnail">

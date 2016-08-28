@@ -184,6 +184,63 @@ h3{
     text-align: -webkit-left;
     font-size: larger;
 }
+.carousel-caption {
+    text-align: -webkit-left;
+    left: 5%;
+    top: 5%;
+    color: black;
+}
+.img-thumbnail {
+    padding: 5px;
+    border-radius: 50%;
+}
+.foto .img-thumbnail {
+    width: 200px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.specialist img {
+    width: 100%;
+}
+.specialist1{
+    background-image: url(/img/pattern1.jpg);
+    background-size: cover;
+}
+.specialist2{
+    background-image: url(/img/pattern2.jpg);
+    background-size: cover;
+}
+.specialist3{
+    background-image: url(/img/pattern3.jpg);
+    background-size: cover;
+}
+.text-spec {
+    padding: 20px;
+    font-size: x-large;
+}
+.col-sm-4.foto {
+    float: right;
+}
+.thumbnail-info2 .thumbnail {
+    box-shadow: 0 0px 0px rgba(0,0,0,.1);
+}
+.specialist h2 {
+    text-align: -webkit-center;
+    font-weight: bold;
+    font-style: italic;
+}
+.cars h1 {
+    font-weight: 900;
+    text-shadow: 0px 4px 5px #cca2cc;
+}
+.cars h3 {
+    margin-top: 15px;
+    width: 80%;
+    text-shadow: 0px 4px 5px #ffffff;
+    font-weight: bold;
+}
 
 
 
@@ -205,6 +262,12 @@ h3{
         .comment img {
             width: 20%;
 }
+    .text-spec {
+    padding: 20px;
+    font-size: large;
+}
+    
+    
 }
 @media (max-width: 500px) { 
     .logo, .time {
@@ -231,6 +294,20 @@ h3{
 }
     .col-md-12 h3 {
         font-size: large;
+}
+    .col-sm-4.foto {
+    float: none;
+}
+    .text-spec {
+    text-align: -webkit-center;
+    padding-bottom: 50px;
+}
+    .foto .img-thumbnail {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+    .cars h3 {
+    display: none;
 }
 }
 @media (max-width: 360px) { 
