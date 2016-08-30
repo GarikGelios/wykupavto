@@ -1,5 +1,5 @@
 .line {
-    background-image: url(/img/line.png);
+    background-image: url(../img/line.png);
     background-position: left bottom;
     background-repeat: repeat-x;
     box-shadow: 0 10px 10px rgba(0,0,0,.3);
@@ -87,6 +87,7 @@
     background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
 }
 .form-back button.btn.btn-default {
+    margin-top: 15px;
     color: white;
     width: 100%;
     -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.3);
@@ -107,8 +108,12 @@
     margin-top: 49px;
 }
 .form-control{
+    margin: 11px 0;
     border: 1px solid #606;
     -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+label {
+    margin-bottom: 0px;
 }
 .thumbnail {
     margin-top: 50px;
@@ -205,15 +210,15 @@ h3{
     width: 100%;
 }
 .specialist1{
-    background-image: url(/img/pattern1.jpg);
+    background-image: url(../img/pattern1.jpg);
     background-size: cover;
 }
 .specialist2{
-    background-image: url(/img/pattern2.jpg);
+    background-image: url(../img/pattern2.jpg);
     background-size: cover;
 }
 .specialist3{
-    background-image: url(/img/pattern3.jpg);
+    background-image: url(../img/pattern3.jpg);
     background-size: cover;
 }
 .text-spec {
@@ -240,6 +245,21 @@ h3{
     width: 80%;
     text-shadow: 0px 4px 5px #ffffff;
     font-weight: bold;
+    font-size: xx-large;
+}
+img.whitelogo {
+    float: inherit;
+}
+form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav a {
+    font-size: x-large;
+}
+.cars h1 {
+    margin-bottom: 120px;
 }
 
 
@@ -250,7 +270,16 @@ h3{
 
 
 
-
+@media (max-width: 1038px) {
+    .nav a {
+    font-size: large;
+} 
+}
+@media (max-width: 840px) {
+    .nav a {
+    font-size: medium;
+} 
+}
 
 @media (max-width: 768px) { 
         .time h2{
@@ -264,6 +293,12 @@ h3{
 }
     .text-spec {
     padding: 20px;
+    font-size: large;
+}
+    .cars h1 {
+    margin-bottom: 50px;
+}
+    .cars h3 {
     font-size: large;
 }
     
